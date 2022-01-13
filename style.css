@@ -34,10 +34,114 @@ body {
 }
 
 /* ---- HEADER ---- */
-
+header {
+    display: flex;
+    background: var(--Background-color);
+}
 /* ---- MAIN ---- */
+.content-main {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-areas: 
+        "uno dos tres"
+        "cuatro cinco seis"
+        "siete ocho nueve"
+        "nada diez nada";
+        place-content: center;
+        column-gap: 20px;
+        row-gap: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+.content-main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-main div h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: hsla(0, 0%, 100%, 0.411);
+    width: 84%;
+    height: 20%;
+    border-radius: 10px;
+}
+.reto-10 {
+    border-radius: 20px;
+    background:var(--Gradient-Blue);
+    width: 100px;
+    height: 150px;
+}
+.reto-20 {
+    border-radius: 20px;
+    background: var(--Gradient-Green);
+    width: 100px;
+    height: 150px;
+}
+.reto-30 {
+    border-radius: 20px;
+    background: var(--Gradient-Orange);
+    width: 100px;
+    height: 150px;
+}
+.reto-40 {
+    border-radius: 20px;
+    background: var(--Gradient-Pink);
+    width: 100px;
+    height: 150px;
+}
+.reto-50 {
+    border-radius: 20px;
+    background: var(--Gradient-Purple);
+    width: 100px;
+    height: 150px;
+}
+.reto-60 {
+    border-radius: 20px;
+    background: var(--Gradient-Blue);
+    width: 100px;
+    height: 150px;
+}
+.reto-70 {
+    border-radius: 20px;
+    background: var(--Gradient-Green);
+    width: 100px;
+    height: 150px;
+}
+.reto-80 {
+    border-radius: 20px;
+    background: var(--Gradient-Orange);
+    width: 100px;
+    height: 150px;
+}
+.reto-90 {
+    border-radius: 20px;
+    background: var(--Gradient-Pink);
+    width: 100px;
+    height: 150px;
+}
+.reto-100 {
+    border-radius: 20px;
+    background: var(--Gradient-Purple);
+    width: 100px;
+    height: 150px;
+}
 
 /* ---- FOOTER ---- */
-
+footer {
+    background: var(--Background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* =-=-=-= DESKTOP =-=-=-= */
+@media (min-width: 900px) {
+
+}
