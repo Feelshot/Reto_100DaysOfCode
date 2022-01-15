@@ -29,19 +29,18 @@ body {
     color: var(--Text-color-light);
     font-family: 'Rubik', sans-serif;
 }
-.logo-header {
-    width: 100px;
-    height: 80px;
-}
-.logo-header img {
-    width: 80px;
-    margin: 36px 0 0 20px;
-}
+
 
 /* ---- HEADER ---- */
+
+.logo-header {
+    display: none;
+    width: 200px;
+    height: 100px;
+}
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background: var(--Background-color);
     position: fixed;
     top: 0;
@@ -55,15 +54,17 @@ header h1 {
     text-align: center;
     margin-top: 17px;
 }
-header .title-header a {
+header .title-header {
+    width: 220px;
     font-family: 'Rubik', sans-serif; 
     text-decoration: none;
     color: var(--Text-color-light);
 }
-header .title-header a h1 span {
+header .title-header h1 span {
     font-weight: bolder;
     font-size: 32px;
 }
+/*
 .button-header {
     width: 100px;
     height: 100px;
@@ -72,13 +73,14 @@ header .title-header a h1 span {
     align-items: center;
 }
 .button-header button {
-    width: 70px;
-    height: 70px;
+    width: 20%;
+    height: 80px;
 }
+*/
 /* ---- MAIN ---- */
 main {
     margin-top: 120px;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 .content-main {
     display: grid;
@@ -169,20 +171,19 @@ footer {
 }
 footer .social-footer i {
     margin-left: 14px;
+    color: var(--Text-color-light);
 }
 footer .copy-footer {
     font-size: 14px;
 }
 
-/* =-=-=-= DESKTOP =-=-=-= */
+
+
+
+/* =-=-=-= TABLET =-=-=-= */
 @media (min-width: 600px) {
-    .logo-header {
-        width: 150px;
-        height: 80px;
-    }
-    .logo-header img {
-        width: 100px;
-        margin: 30px 0 0 30px;
+     .logo-header {
+        display: contents !important;
     }
     .content-main {
         display: grid;
@@ -194,6 +195,11 @@ footer .copy-footer {
             margin-top: 20px;
             margin-bottom: 20px;
     }
+}
+
+/* =-=-=-= DESKTOP =-=-=-= */
+ .logo-header {
+    visibility: visible;
 }
 @media (min-width: 900px) {
     .content-main {
