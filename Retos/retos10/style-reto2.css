@@ -1,0 +1,29 @@
+body {
+    position: relative;
+
+}
+.alga1, .alga2, .alga3, .alga4 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, rgb(73, 134, 82) 0%, rgb(17, 56, 1) 100%);
+    top: 100px;
+    left: 100px;
+    transform: rotate(50deg);
+    border-radius: 60px;
+}
+.alga2 {top: 90px;}
+.alga3 {top: 80px;}
+.alga4 {top: 70px;}
+
+.arroz {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    background-image: url(https://st2.depositphotos.com/5356802/7939/v/950/depositphotos_79396572-stock-illustration-seamless-background-with-rice.jpg);
+    background-size: cover;
+    top: 74px;
+    left: 106px;
+    transform: rotate(50deg);
+    border-radius: 60px; 
+}
