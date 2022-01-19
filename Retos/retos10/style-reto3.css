@@ -1,0 +1,88 @@
+:root {
+    --verde: rgb(7, 58, 0);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Dongle', sans-serif;
+    background: #E6D7BD;
+    color: #382c1e;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+}
+.makisushi-01, .makisushi-02, .makisushi-03, .futomaki-01, .futomaki-02, .hosomaki-01, .hosomaki-02, .hosomaki-03, .hosomaki-04, .urakami-01, .urakami-02, .urakami-03, .nigiri-01, .nigiri-02, .oshizushi-01, .oshizushi-02, .oshizushi-03 {
+    background-color: purple;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.sushi-container-02, .sushi-container-03, .sushi-container-04 {
+    display: flex;
+}
+/* ---- Palillos header ---- */
+.palillos-container {
+    width: 800px;
+    height: 100px;
+    position: relative;
+}
+.tablita-palillos {
+    position: absolute;
+    background-color: #351600;
+    width: 30px;
+    height: 52px;
+    border-radius: 5px;
+    left: 68%;
+}
+.palillo-01 {
+    position: absolute;
+    background-color: var(--verde);
+    width: 420px;
+    height: 10px;
+    top: 10px;
+    left: 24%;
+    border-radius: 0 20px 20px 0;
+}
+.palillo-02 {
+    position: absolute;
+    background-color: var(--verde);
+    width: 420px;
+    height: 10px;
+    top: 30px;
+    left: 24%; 
+    border-radius: 0 20px 20px 0;
+}
+.linea-blanca-01, .linea-blanca-02 {
+    position: absolute;
+    height: 100%;
+    width: 10px;
+    background-color: seashell;
+    left: 20%;
+}
+
+.linea-rosa-01, .linea-rosa-02 {
+    position: absolute;
+    height: 100%;
+    width: 330px;
+    background-color: rgb(211, 155, 91);
+    left: 22%;
+    border-radius: 0 20px 20px 0;
+}
+
+/* ---- Makisushi ---- */
+
+/* ---- Futomaki ---- */
+
+/* ---- Hosomaki ---- */
+
+/* ---- Uragami ---- */
+
+/* ---- Nigiri ---- */
+
+/* ---- Oshizushi ---- */
