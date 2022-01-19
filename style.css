@@ -7,7 +7,7 @@
     /*Gradientes*/
     --Gradient-Pink: linear-gradient(45deg, rgba(0,248,255,1) 0%, rgba(255,0,247,1) 100%);
     --Gradient-Purple: linear-gradient(45deg, rgba(200,17,194,1) 0%, rgba(16,16,187,1) 100%);
-    --Gradient-Green: linear-gradient(45deg, rgba(214,204,5,1) 0%, rgba(13,196,25,1) 100%);
+    --Gradient-Green: linear-gradient(45deg, rgba(214,204,5,1) 0%, rgb(18, 228, 32) 100%);
     --Gradient-Blue: linear-gradient(45deg, rgba(214,5,5,1) 0%, rgba(13,38,196,1) 100%);
     --Gradient-Orange: linear-gradient(45deg, rgba(0,248,255,1) 0%, rgba(255,89,0,1) 100%);
 
