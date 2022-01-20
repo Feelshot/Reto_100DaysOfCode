@@ -6,6 +6,7 @@
     padding: 0;
 }
 body {
+    width: 100%;
     font-family: 'Dongle', sans-serif;
     background: #E6D7BD;
     color: #382c1e;
@@ -16,20 +17,21 @@ body {
     justify-content: center;
     margin: 0 auto 0 auto;
 }
+/*Sushis contenedores padres*/
 .makisushi-01, .makisushi-02, .makisushi-03, .futomaki-01, .futomaki-02, .hosomaki-01, .hosomaki-02, .hosomaki-03, .hosomaki-04, .urakami-01, .urakami-02, .urakami-03, .nigiri-01, .nigiri-02, .oshizushi-01, .oshizushi-02, .oshizushi-03 {
     background-color: purple;
     width: 50px;
     height: 50px;
     margin-left: 10px;
+    position: relative;
 }
 .sushi-container-02, .sushi-container-03, .sushi-container-04 {
     display: flex;
 }
+
 /* ---- Palillos header ---- */
 header {
     border: 2px solid rgb(18, 182, 67);
-    height: 100%;
-    width: 100%;
 }
 h1 {
     margin-bottom: 20px;
@@ -87,6 +89,8 @@ h1 {
     left: 90px;
     border-radius: 0 20px 20px 0;
 }
+
+
 /* ==== Main | Tipos de sushi ==== */
 main {
     display: flex;
@@ -94,36 +98,109 @@ main {
     justify-content: center;
     align-items: center;
     border: 2px solid aqua;
-    width: 100%;
+
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px;
     column-gap: 20px;
     row-gap: 20px;
 
 }
+
 /* ---- Makisushi ----  Sushis con el alga por dentro */
+.makisushi {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+}
+.makisushi .sushi-container-03 {
+    height: 100%;
+}
+
 
 /* ---- Futomaki ----  Sushis gordos*/
-
+.futomaki{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+}
+.futomaki .sushi-container-02 {
+    height: 100%;
+}
 /* ---- Hosomaki ---- Sushi muy delgado con alga por fuera */
-
+.hosomaki {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+}
+.hosomaki .sushi-container-04 {
+    height: 100%;
+}
 /* ---- Uragami ---- Sushi normal, con alga por fuera */
-
+.urakami {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+}
+.urakami .sushi-container-03 {
+    height: 100%;
+}
 /* ---- Nigiri ---- Arroz con salmoun arriba*/
-
+.nigiri {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+}
+.nigiri .sushi-container-02 {
+    height: 100%;
+}
 /* ---- Oshizushi ---- Sushi cuadrado */
+.oshizushi {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+}
+.oshizushi .sushi-container-03 {
+    height: 100%;
+}
 
-@media (max-width: 800px){
+
+
+
+/* =-=-=-= Media Queries =-=-=-=*/
+@media (max-width: 900px){
     main {
         display: grid;
         grid-template-columns: 300px 300px;
-        grid-template-rows: 280px 280px 280px; 
+        grid-template-rows: 300px 300px 300px; 
     }
     
 }
-
-@media (max-width: 450px) {
+@media (max-width: 630px) {
     main {
         display: grid;
         grid-template-columns: 300px ;
