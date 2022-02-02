@@ -1,0 +1,42 @@
+body {
+    background: #3a4f64;
+}
+.container:hover .circle {
+    transform: translateX(300px)
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+.one {
+    background: #F5B7B1;
+    transition: transform 1s linear;
+    transition-delay: 0.3s;    
+}
+.two {
+    background: #E8DAEF;
+    transition: transform 1s linear;
+    transition-delay: 0.6s;    
+}
+.three {
+    background: #D6EAF8;
+    transition: transform 1s ease;
+    transition-delay: 0.9s;    
+}
+.four {
+    background: #D5F5E3;
+    transition: transform 1s ease-in;
+    transition-delay: 1.2s;    
+}
+.five {
+    background: #FDEBD0;
+    transition: transform 1s ease-in-out;
+    transition-delay: 1.5s;    
+}
+.six {
+    background: #F6DDCC;
+    transition: transform 1s cubic-bezier(.17,.67,.83,.67);
+    transition-delay: 1.8s;    
+}
