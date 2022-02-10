@@ -118,20 +118,39 @@ h2 {
 .person01 {
     top: 200px;
     left: 100px;
+    animation: derecha;
 }
 .person02 {
     top: 300px;
     left: 120px;
+    animation: izquierda;
 }
 .person03 {
     top: 400px;
     left: 110px;
+    animation: derecha;
 }
 .person04 {
     top: 500px;
     left: 120px;
+    animation: izquierda;
 }
-
+@keyframes derecha {
+    0% {
+        left: 0px;
+    }
+    50% {
+        left: 60px;
+    }
+    100% {
+        left: 120px;
+    }
+}
+@keyframes izquierda {
+    0% {}
+    50% {}
+    100% {}
+}
 .layer-01 {
     position: absolute;
     z-index: 1;
