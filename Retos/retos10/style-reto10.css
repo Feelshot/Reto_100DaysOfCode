@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(199, 56, 56);
+}
+.container {
+    width: 200px;
+    height: 200px;
+    margin: 30px auto 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.circle {
+    border: 2px solid #fff;
+    border-radius: 100%;
+    position: absolute;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+.circle-01 {
+    width: 20px;
+    height: 10px;
+    animation-name: updown;
+    animation-delay: 0.25s;
+}
+.circle-02 {
+    width: 30px;
+    height: 20px;
+    animation-name: updown;
+    animation-delay: 0.5s;
+}
+.circle-03 {
+    width: 40px;
+    height: 30px;
+    animation-name: updown;
+    animation-delay: 0.75s;
+}
+.circle-04 {
+    width: 50px;
+    height: 40px;
+    animation-name: updown;
+    animation-delay: 1s;
+}
+.circle-05 {
+    width: 60px;
+    height: 50px;
+    animation-name: updown;
+    animation-delay: 1.25s;
+}
+.circle-06 {
+    width: 70px;
+    height: 60px;
+    animation-name: updown;
+    animation-delay: 1.5s;
+}
+.circle-07 {
+    width: 80px;
+    height: 70px;
+    animation-name: updown;
+    animation-delay: 1.75s;
+}
+.circle-08 {
+    width: 90px;
+    height: 80px;
+    animation-name: updown;
+    animation-delay: 2s;
+}
+.circle-09 {
+    width: 100px;
+    height: 90px;
+    animation-name: updown;
+    animation-delay: 2.25s;
+}
+.circle-10 {
+    width: 110px;
+    height: 100px;
+    animation-name: updown;
+    animation-delay: 2.5s;
+}
+
+@keyframes updown {
+    0% {
+        top: 50px;
+    }
+    50% {
+        top: 100px;
+    }
+    100% {
+        top: 50px;
+    }
+}
